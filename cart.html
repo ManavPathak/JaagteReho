@@ -1,117 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Document</title>
     <script src="store.js" async></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="nav">
-        <h1><img src="Screenshot 2023-10-01 at 11.22.13 AM.png" alt="" id="icon" onclick="window.location.href='index.html'"></h1>
-        <h1 ><div id="directory">
-            <a href="shop.html">new drops_</a>
-            <!-- <a href="about.html">about</a>
+      <h1>
+        <img
+          src="Screenshot 2023-10-01 at 11.22.13 AM.png"
+          alt=""
+          id="icon"
+          onclick="window.location.href='index.html'"
+        />
+      </h1>
+      <h1>
+        <div id="directory">
+          <a href="shop.html">new drops_</a>
+          <!-- <a href="about.html">about</a>
             <a href="contact.html">contact</a> -->
-        </div></h1>
-        <h1><div id="nav-search">
-            <!-- <h1><i class="ri-search-line"></i></h1> -->
-            <h1><i class="ri-shopping-cart-fill"></i></h1>
-            <!-- <h1><i class="ri-menu-4-line"></i></h1> -->
-        </div></h1>
-        
+        </div>
+      </h1>
+      <h1>
+        <div id="nav-search">
+          <!-- <h1><i class="ri-search-line"></i></h1> -->
+          <h1><i class="ri-shopping-cart-fill"></i></h1>
+          <!-- <h1><i class="ri-menu-4-line"></i></h1> -->
+        </div>
+      </h1>
     </div>
     <section class="container content-section">
-        <h2 class="section-header">CART</h2>
-        <div class="cart-row">
-            <span class="cart-item cart-header cart-column">ITEM</span>
-            <span class="cart-price cart-header cart-column">PRICE</span>
-            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-        </div>
-        <div class="cart-items">
-            <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <span class="cart-item-title">Dream's Do Come True</span>
-                </div>
-                <span class="cart-price cart-column">Rs.799</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="1">
-                    <button class="btn btn-danger" type="button">REMOVE</button>
-                </div>
-            </div>
-            <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <span class="cart-item-title">Stay Humble</span>
-                </div>
-                <span class="cart-price cart-column">Rs.999</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="2">
-                    <button class="btn btn-danger" type="button">REMOVE</button>
-                </div>
-            </div>
-        </div>
-        <div class="cart-total">
-            <strong class="cart-total-title">Total</strong>
-            <span class="cart-total-price">Rs.1798</span>
-        </div>
-        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">Rs.</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
     </section>
-    
-    
-    <section id="fe-items" class="section-p1">
-        <h2>YOU may also like ^^</h2>
-        <div class="pro-container">
-            <div class="pro" onclick="window.location.href='spage.html'">
-                <img src="https://jagtereho.com/cdn/shop/files/Dreamsdocometruemen1_1066x.jpg?v=1695810538" alt="">
-                <div class="des">
-                    <h4>dreams do come true</h4>
-                    <h5>₹799</h5>
-                </div>
-            </div>
-            <div class="pro" onclick="window.location.href='spage2.html'">
-                <img src="https://jagtereho.com/cdn/shop/files/Dreambigmen_1066x.png?v=1695153885" alt="">
-                <div class="des">
-                    <h4>dream Big</h4>
-                    <h5>₹799</h5>
-                </div>
-            </div>
-            <div class="pro">
-                <img src="https://jagtereho.com/cdn/shop/files/S1_37862205-3979-43c5-9ba6-0ef23dbb2787_1066x.jpg?v=1695154453" alt="">
-                <div class="des">
-                    <h4>stay humble</h4>
-                    <h5>₹999</h5>
-                </div>
-            </div>
-            <div class="pro" onclick="window.location.href='spage4.html'">
-                <img src="https://jagtereho.com/cdn/shop/files/S1_1066x.jpg?v=1695153005" alt="">
-                <div class="des">
-                    <h4>create your own destiny</h4>
-                    <h5>₹999</h5>
-                </div>
-            </div>
-        </div>
 
+    <section id="fe-items" class="section-p1">
+      <h2>YOU may also like ^^</h2>
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href='spage.html'">
+          <img
+            src="https://jagtereho.com/cdn/shop/files/Dreamsdocometruemen1_1066x.jpg?v=1695810538"
+            alt=""
+          />
+          <div class="des">
+            <h4>dreams do come true</h4>
+            <h5>₹799</h5>
+          </div>
+        </div>
+        <div class="pro" onclick="window.location.href='spage2.html'">
+          <img
+            src="https://jagtereho.com/cdn/shop/files/Dreambigmen_1066x.png?v=1695153885"
+            alt=""
+          />
+          <div class="des">
+            <h4>dream Big</h4>
+            <h5>₹799</h5>
+          </div>
+        </div>
+        <div class="pro" onclick="window.location.href='spage3.html'">
+          <img
+            src="https://jagtereho.com/cdn/shop/files/S1_37862205-3979-43c5-9ba6-0ef23dbb2787_1066x.jpg?v=1695154453"
+            alt=""
+          />
+          <div class="des">
+            <h4>stay humble</h4>
+            <h5>₹999</h5>
+          </div>
+        </div>
+        <div class="pro" onclick="window.location.href='spage4.html'">
+          <img
+            src="https://jagtereho.com/cdn/shop/files/S1_1066x.jpg?v=1695153005"
+            alt=""
+          />
+          <div class="des">
+            <h4>create your own destiny</h4>
+            <h5>₹999</h5>
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <!-- <section id="after">
         <img src="https://jagtereho.com/cdn/shop/files/JagteReho_Images_1880x.jpg?v=1695799159" alt="">
         <img src="https://jagtereho.com/cdn/shop/files/JagteReho_Images3_1880x.jpg?v=1695799275" alt="">
         <img src="https://jagtereho.com/cdn/shop/files/S5.jpg?v=1695153004" alt="">
         <img src="https://jagtereho.com/cdn/shop/files/S1_37862205-3979-43c5-9ba6-0ef23dbb2787.jpg?v=1697307110" alt="">
     </section> -->
-    
 
     <div id="foot">
-    
-        <h3><a href="https://www.linkedin.com/in/manav-pathak-761186254">linkedin</a></h3>
-        <h3><a href="https://www.instagram.com/manavbharadwajj/">instagram</a></h3>
-        <h3><a href="https://x.com/manavchilllll">twitter</a></h3>
-        
+      <h3>
+        <a href="https://www.linkedin.com/in/manav-pathak-761186254"
+          >linkedin</a
+        >
+      </h3>
+      <h3>
+        <a href="https://www.instagram.com/manavbharadwajj/">instagram</a>
+      </h3>
+      <h3><a href="https://x.com/manavchilllll">twitter</a></h3>
     </div>
-    
-
-</body>
+  </body>
 </html>
